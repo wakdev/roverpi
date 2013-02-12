@@ -1,6 +1,9 @@
 roverpi
 =======
 
-Raspberry Pi Rover
+Bienvenue sur le projet Rover Pi.
 
-Site : http://www.wakdev.com/projets/roverpi.html
+Le but de ce projet, hors le simple fait de s'amuser avec les GPIO du Raspberry Pi et d'utiliser celui-ci à des fins robotique.
+Vous trouverez toutes les étapes nécessaires au développement et à la construction de ce robot sur le site : 
+
+http://www.wakdev.com/projets/roverpi.html
