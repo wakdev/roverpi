@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView_roverPi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_ip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher" 
+        android:contentDescription="@string/app_name"/>
+    
+     <TextView
+         android:id="@+id/textView_appName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/imageView_roverPi"
+         android:layout_marginTop="14dp"
+         android:layout_toRightOf="@+id/textView_ip"
+         android:text="@string/app_name"
+         android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/textView_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/fr_ip_address" />
+
+    <EditText
+        android:id="@+id/editText_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_ip"
+        android:layout_below="@+id/textView_ip"
+        android:ems="10"
+        android:hint="@string/fr_placeholder_ip_address" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_ip"
+        android:layout_below="@+id/editText_ip"
+        android:layout_marginTop="10dp"
+        android:text="@string/fr_port" />
+
+    <EditText
+        android:id="@+id/EditText_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_port"
+        android:layout_below="@+id/textView_port"
+        android:ems="10"
+        android:hint="@string/fr_placeholder_port" />
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText_port"
+        android:layout_below="@+id/EditText_port"
+        android:layout_marginTop="15dp"
+        android:text="@string/fr_connexion" 
+        android:onClick="onButtonConnectClick" />
+
+   
+
+</RelativeLayout>

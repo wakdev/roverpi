@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+    <string name="app_name">RoverPi</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- FR -->
+    <string name="fr_ip_address">Adresse IP</string>
+    <string name="fr_port">Port</string>
+    <string name="fr_connexion">Connexion</string>
+    
+    <string name="fr_forward">avancer</string>
+    <string name="fr_backward">reculer</string>
+    <string name="fr_left">gauche</string>
+    <string name="fr_right">droite</string>
+    <string name="fr_stop">stop</string>
+    
+    <string name="fr_loading">chargement</string>
+    
+    <!-- Place Holder -->
+	<string name="fr_placeholder_ip_address">192.168.1.26</string>
+    <string name="fr_placeholder_port">1985</string>
+</resources>
