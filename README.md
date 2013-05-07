@@ -1,5 +1,6 @@
-roverpi
-=======
+![RoverPi](http://www.wakdev.com/contents/images/projets/roverpi/roverpi2.jpg)
+Rover PI
+================================================
 
 Bienvenue sur le projet Rover Pi.
 
